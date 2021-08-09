@@ -21,7 +21,7 @@ int main(){
 		switch(choice) {
 			case 1:
 				std::cout<<"Okay, but we have two types of computer, personal computer and notebook. What type do you want?\n1)PC\n2)Notebook\n";
-				MakeComputer(object*);
+				MakeComputer(object);
 				break;
 			case 2:
 				MakeSmartphone();

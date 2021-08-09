@@ -1,7 +1,7 @@
 #include "all.hpp"
 
-void PCMake(PC object[1], PC all);
-void MakeComputer(PC object[1]){
+void PCMake(PC *object, PC all);
+void MakeComputer(PC *object){
 	int choice;
 	std::cin>>choice;
 	assert(choice==1 || choice==2); 

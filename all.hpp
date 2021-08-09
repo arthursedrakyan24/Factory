@@ -32,5 +32,5 @@ class Smartphone: public FabricProduct {
 		std::string Platform, Memory, Camera;
 };
 
-void MakeComputer(PC);
+void MakeComputer(PC*);
 void MakeSmartphone();
