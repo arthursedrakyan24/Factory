@@ -7,7 +7,7 @@ void HDDofPC(PC object[1], PC all);
 void SSDofPC(PC object[1], PC all);
 void GraphicCardofPC(PC object[1], PC all);
 
-void PCMake(PC object[1], PC all){
+void notemake(PC object[1], PC all){
 	std::string Brand, CPU, RAM, HDD, SSD, GraphicCard;
 	int price;
 	BrandOfPC(object, all);
@@ -29,7 +29,7 @@ void PCMake(PC object[1], PC all){
 	GraphicCard=object[0].GraphicCard;
 	price+=object[0].price;
 	std::cout<<"------------------------------------------------------------------------------\n";
-	std::cout<<"Okay, we have constructed the PC, which you wants. Here is your PC's parameters.\n";
+	std::cout<<"Okay, we have constructed the Notebook, which you wants. Here is your PC's parameters.\n";
 	std::cout<<"Brand: "<<Brand<<std::endl;
 	std::cout<<"CPU: "<<CPU<<std::endl;
 	std::cout<<"RAM: "<<RAM<<std::endl;

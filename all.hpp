@@ -20,17 +20,11 @@ class PC: public Computer {
 		void Offer(std::string answer);
 };
 
-class Notebook: public Computer {
-	public:
-		int price=600;
-		void Offer(std::string answer);
-};
-
 class Smartphone: public FabricProduct {
 	public:
-		int price=200;
+		int price=0;
 		std::string Platform, Memory, Camera;
 };
 
 void MakeComputer(PC*);
-void MakeSmartphone();
+void MakeSmartphone(Smartphone*, Smartphone);

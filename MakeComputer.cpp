@@ -1,6 +1,7 @@
 #include "all.hpp"
 
 void PCMake(PC *object, PC all);
+void notemake(PC *object, PC all);
 void MakeComputer(PC *object){
 	int choice;
 	std::cin>>choice;
@@ -13,9 +14,8 @@ void MakeComputer(PC *object){
 			break;
 			}
 		case 2: 
-			Notebook newnote;
-	//		notemake();
+			PC newnote;
+			notemake(object, newnote);
 			break;
 	}
 }
-

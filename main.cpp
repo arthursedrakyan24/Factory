@@ -2,6 +2,8 @@
 
 int main(){
 	PC object[1];
+	Smartphone subject[1];
+        Smartphone newsp;
 	std::string answer, bye, line;
 	line="--------------------------------------------------------\n";
 	bye="It was a pleasure to have a work with you!.\n";
@@ -24,7 +26,7 @@ int main(){
 				MakeComputer(object);
 				break;
 			case 2:
-				MakeSmartphone();
+				MakeSmartphone(subject, newsp);
 				break;
 		}	
 	}
