@@ -19,5 +19,4 @@ void PlatformSM(Smartphone subject[1], Smartphone all){ //PlatformSM function ha
 		}
 	subject[0]=all; // Saving the changes in object, to array. If we don't do it we can't have the access to changed variables out of function.
 }
-}
 
