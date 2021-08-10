@@ -1,6 +1,6 @@
 #include "all.hpp"
 
-void MemorySM(Smartphone subject[1], Smartphone all){
+void MemorySM(Smartphone subject[1], Smartphone all){ //MemorySM function has been created for giving the "Memory" variable the value and changing the "price" variable value.
 	int answer;
 	std::cout<<"What kind of memory storage do you want?\n1) 8 GB\n2) 16 GB\n3) 32 GB\n4) 64 GB\n";
 	std::cin>>answer;

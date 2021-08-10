@@ -1,9 +1,9 @@
-export EXE := factory
-export C_files := $(wildcard *.cpp)
-export O_files := $(patsubst %.cpp, %.o, $(C_files))
-$(EXE) : $(O_files)
-	g++ $^ -o $@
-%.o : %.cpp
-	g++ -c $^ -o $@
-clean :
-	rm *.o $(EXE)
+all:
+	mkdir bin/
+	cd src/ && make
+	cd src/ && make clean
+clean:
+	rm -r bin/
+
+run:
+	cd bin && ./factory
