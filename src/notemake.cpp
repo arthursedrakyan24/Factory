@@ -1,5 +1,7 @@
 #include "all.hpp"
 
+//This function has the same logic with PCMake function.
+
 void BrandOfPC(PC object[1], PC all);
 void CPUofPC(PC object[1], PC all);
 void RAMofPC(PC object[1], PC all);

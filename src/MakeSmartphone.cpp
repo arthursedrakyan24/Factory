@@ -1,5 +1,7 @@
 #include "all.hpp"
 
+//This function have the same logic with PCMake function. 
+
 void PlatformSM(Smartphone subject[1], Smartphone all);
 void MemorySM(Smartphone subject[1], Smartphone all);
 void CameraSM(Smartphone subject[1], Smartphone all);

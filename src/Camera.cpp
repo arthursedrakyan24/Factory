@@ -9,7 +9,7 @@ void CameraSM(Smartphone subject[1], Smartphone all){ //CameraSM function has be
 			all.Camera="8 MP";
 			break;
 		case 2:
-			all.price=all.price+50; //The value of "8 MP" Camera is 8 MP, because of it the "price" variable plusing his value by 50 . 
+			all.price=all.price+50; //The value of "8 MP" Camera is 50, because of it the "price" variable plusing his value by 50 . 
 			all.Camera="20 MP";
 			break;
 		case 3:

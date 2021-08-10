@@ -7,9 +7,9 @@ void HDDofPC(PC object[1], PC all);
 void SSDofPC(PC object[1], PC all);
 void GraphicCardofPC(PC object[1], PC all);
 
-void PCMake(PC object[1], PC all){
-	std::string Brand, CPU, RAM, HDD, SSD, GraphicCard;
-	int price;
+void PCMake(PC object[1], PC all){ //PCMake function is the most important function for creating the PC, this is the space where we give values to the important variables.
+	std::string Brand, CPU, RAM, HDD, SSD, GraphicCard; //These are the variables, which we use to save the object array variables, because after new function the values of variables is being changed.
+	int price; // Everytime depends on the choices into functions the price is being changed.
 	BrandOfPC(object, all);
 	price=800+object[0].price;
 	Brand=object[0].Brand;
@@ -27,7 +27,7 @@ void PCMake(PC object[1], PC all){
 	price+=object[0].price;
 	GraphicCardofPC(object, all);
 	GraphicCard=object[0].GraphicCard;
-	price+=object[0].price;
+	price+=object[0].price; //This is the final price.
 	std::cout<<"------------------------------------------------------------------------------\n";
 	std::cout<<"Okay, we have constructed the PC, which you wants. Here is your PC's parameters.\n";
 	std::cout<<"Brand: "<<Brand<<std::endl;
